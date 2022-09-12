@@ -15,8 +15,8 @@ def about(): #Create a dictionary in the about.html page
     me = {
         "first_name": "Jimmy",
         "last_name": "Smith",
-        "hobbies": "67 Mustang",
-        "bio": "May name is Jimmy Smith and I am a Data Systems Analyst at Q2....."
+        "hobbies": "My 1967 Mustang",
+        "bio": "May name is Jimmy Smith and I am a Data Systems Analyst at Q2,Inc.  I have been working at Q2 for almost 2 years.  My job is specifically to troubleshoot Python code designed for financial institutions.  The code is written in Python3 and the Database uses MySQL.  My job is good, pays well, but I am looking to move into the Web component of my company.  I enjoy designing and troubleshooting web issues."
     }
     return render_template("about.html", about_dict=me)
 
